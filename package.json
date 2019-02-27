@@ -1,0 +1,19 @@
+{
+  "name": "turing-ecommerce",
+  "version": "1.0.0",
+  "description": "Ecommerce Full-stack Application for Turing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}
