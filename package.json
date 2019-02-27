@@ -132,8 +132,8 @@
       "node"
     ],
     "watchPlugins": [
-      "/Users/abhishek/Work/Personal/turing-ecommerce/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/abhishek/Work/Personal/turing-ecommerce/node_modules/jest-watch-typeahead/testname.js"
+      "./node_modules/jest-watch-typeahead/filename.js",
+      "./node_modules/jest-watch-typeahead/testname.js"
     ]
   }
 }
