@@ -5,7 +5,7 @@
   "description": "Ecommerce Full-stack Application for Turing",
   "main": "index.js",
   "scripts": {
-    "test": "node scripts/test.js --no-watch",
+    "test": "jest",
     "test-watch": "node scripts/test.js",
     "build": "node scripts/build.js",
     "client:dev": "node scripts/start-client-dev.js",
