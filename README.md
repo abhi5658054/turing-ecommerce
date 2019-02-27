@@ -1,4 +1,4 @@
-E-Commerce Portal - Turing
+# E-Commerce Portal - Turing
 
 [![CircleCI](https://circleci.com/gh/mav-erick/turing-ecommerce.svg?style=svg)](https://circleci.com/gh/mav-erick/turing-ecommerce)
 
