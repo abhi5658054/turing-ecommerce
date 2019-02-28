@@ -87,6 +87,9 @@ typings/
 #Build output
 dist/
 
+#Expermients
+experiments.js
+
 #Cache
 .DS_Store
 **/.DS_Store
