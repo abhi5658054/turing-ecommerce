@@ -1,11 +1,13 @@
-import express from "express";
-import bodyParser from "body-parser";
 import path from "path";
+import bodyParser from "body-parser";
+import express from "express";
 
 const app = express();
 const isDist = __dirname.includes("/dist/") ? true : false;
+
 app.use(express.static(path.join(__dirname, isDist ? "../" : "../dist/")));
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("*", (req, res) => {
   res.sendFile(
