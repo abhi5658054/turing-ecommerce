@@ -1,2 +1,7 @@
-//Add variable overrides here
-//rgba(173, 200, 251, 1);
+@import "~bulma/sass/utilities/initial-variables.sass";
+
+$primary: rgba(173, 200, 251, 1);
+//$navbar-height: 4rem;
+$navbar-item-img-max-height: 2.5rem;
+
+@import "~bulma/sass/utilities/_all.sass";
