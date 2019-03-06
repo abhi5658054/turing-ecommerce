@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import Navbar from "react-bulma-components/lib/components/navbar";
+import {
+  Field,
+  Label,
+  Input,
+  Control
+} from "react-bulma-components/lib/components/form";
 
 class NavBar extends Component {
   state = {
@@ -8,7 +14,7 @@ class NavBar extends Component {
   render() {
     let { open } = this.state;
     return (
-      <Navbar color="white" fixed="top" active="false" transparent="true">
+      <Navbar color="white" fixed="top" active={open} transparent={true}>
         <Navbar.Brand>
           <Navbar.Item renderAs="a" href="#">
             <img
@@ -28,10 +34,17 @@ class NavBar extends Component {
         </Navbar.Brand>
         <Navbar.Menu active={open}>
           <Navbar.Container>
-            <Navbar.Item href="#">Abhishek</Navbar.Item>
+            <Navbar.Item>
+              <Field>
+                <Control>
+                  <Input placeholder="Search" />
+                </Control>
+              </Field>
+            </Navbar.Item>
           </Navbar.Container>
           <Navbar.Container position="end">
-            <Navbar.Item href="#">At the end</Navbar.Item>
+            <Navbar.Item href="#">Cart</Navbar.Item>
+            <Navbar.Item href="#">Login</Navbar.Item>
           </Navbar.Container>
         </Navbar.Menu>
       </Navbar>
